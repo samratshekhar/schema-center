@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package org.presentation.v1;
+
+option csharp_namespace = "Org.Presentation.V1";
+option go_package = "presentationV1";
+option java_multiple_files = true;
+option java_outer_classname = "LayoutProto";
+option java_package = "com.org.presentation.v1";
+option objc_class_prefix = "PPL";
+option php_namespace = "Org\\Presentation\\V1";
+
+// Hello is a hello.
+enum Hello {
+    HELLO_INVALID = 0;
+    HELLO_UNSET = 1;
+    HELLO_TREE = 2;
+    HELLO_BALLOON = 3;
+  }
